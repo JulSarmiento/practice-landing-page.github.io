@@ -1,0 +1,122 @@
+:root {
+    font-size: 15px;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background: url(images/bg-top.svg) no-repeat right top, 
+                url(images/bg-bottom.svg) no-repeat left bottom;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#our-pricing {
+    padding: 1em;
+    align-items: center;
+}
+
+#our-pricing span {
+    padding: 0 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-flow: row wrap;
+}
+
+.h1-config {
+    color: hsl(233, 13%, 49%);
+    font-weight: 700;
+}
+
+.label-config {
+    line-height: 2em;
+    margin: 1rem;
+    color: hsl(233, 13%, 49%);
+}
+
+.card {
+    width: 22rem;
+    box-shadow: 5px 18px 18px #dddde2;
+    background-color: #fefffe;
+    border-radius: 20px;
+    margin: 0.25rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#professional {
+    color: #ffffff;
+    background: linear-gradient( 45deg,#6b6fdd, #9fa5ef);
+    transition: 0.5s;
+}
+
+div ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+div ul li {
+    text-align: center;
+    width: 15rem;
+    border-bottom: 1px solid rgba(206, 181, 181, 0.342);
+    padding: 1rem;
+}
+
+.dolar {
+    font-size: 3.1rem;
+    font-weight: bold;
+    padding: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.link-button {
+    text-align: center;
+    color:#fefffe;
+    text-decoration: none;
+    margin: 1rem;
+    width: 15rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 8px;
+    background: linear-gradient( 90deg, #9fa5ef, #6b6fdd);
+}
+
+.link-button:hover {
+    box-shadow: 5px 5px 5px #d4d4dd;
+}
+
+.link-button-2 {
+    text-align: center;
+    color: #7575b8;
+    text-decoration: none;
+    margin: 1rem;
+    width: 15rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 8px;
+    background-color: #fefffe;
+}
+
+.link-button-2:hover {
+    box-shadow: 5px 5px 5px #838392;
+}
+
+.price-monthly {
+    display: none;
+}
+/*
+@media screen and (max-width: 375px) {
+    background-color: white;
+}
+
+@media screen and (max-width: 1440px) {
+    background-color: white;
+}
+*/
